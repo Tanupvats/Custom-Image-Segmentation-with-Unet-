@@ -1,0 +1,25 @@
+
+# requirements.txt
+
+# Python version
+python>=3.7
+
+# PyTorch and related libraries
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Image processing
+opencv-python>=4.5.3
+albumentations>=1.0.3
+
+# Utilities
+numpy>=1.21.0
+tqdm>=4.61.2
+matplotlib>=3.4.2
+
+# For PyTorch tensor transformations
+albumentations[imgaug]
+
+# Optional GPU support (install CUDA-specific packages if needed)
+# torch==1.9.0+cu111
+# torchvision==0.10.0+cu111
