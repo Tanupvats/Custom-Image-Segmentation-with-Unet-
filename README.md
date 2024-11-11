@@ -1,5 +1,5 @@
 
-# Car Segmentation 
+# Car Exterior components Segmentation 
 
 ## Overview
 This project is an implementation of a segmentation pipeline using the UNet++ model to segment various exterior parts of cars. It is organized into modular components to handle different parts of the workflow, including data preparation, model definition, training, evaluation, and visualization of results. The segmentation focuses on segmenting up to 50 car body parts from input images.
